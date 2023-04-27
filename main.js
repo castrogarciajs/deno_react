@@ -1,5 +1,3 @@
-// frontend/ssr/server.tsx
-
 import { Application, Router } from "https://deno.land/x/oak@v12.3.0/mod.ts";
 
 const app = new Application();
