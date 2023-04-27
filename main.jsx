@@ -1,11 +1,12 @@
-import { Application, Router } from "./deps.js";
-import { ReactDOMServer } from "./deps.js";
+import { Application } from "./deps.js";
+import { router } from "./pages/routes_deno.js";
+import { React, ReactDOMServer } from "./deps.js";
 import App from "./components/App.jsx";
 
 const app = new Application();
 const port = 8000;
 
-const router = new Router();
+const client = ReactDOMServer.renderToString(<App />);
 
 router.get("/", (context) => {
   context.response.body = `
@@ -18,8 +19,8 @@ router.get("/", (context) => {
 			</head>
 			<body>
 			   <div id="root">
-			   ${ReactDOMServer.renderToString(App())}
-				 </div>
+			   		${client}
+				</div>
 			</body>
 		</html>`;
 });
