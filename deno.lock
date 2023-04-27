@@ -1,6 +1,12 @@
 {
   "version": "2",
   "remote": {
+    "https://cdn.skypack.dev/-/@remix-run/router@v1.5.0-hO8eG26gNN6ZdPSBHG71/dist=es2019,mode=imports/optimized/@remix-run/router.js": "2cba937fd0729bf4471c6039de9fec33fc029f71b5fa822252a99a1f24722177",
+    "https://cdn.skypack.dev/-/object-assign@v4.1.1-LbCnB3r2y2yFmhmiCfPn/dist=es2019,mode=imports/optimized/object-assign.js": "d75198c87b0640a682645d8cfdbaa67b5dd4b71aec625582e65d05e87caba008",
+    "https://cdn.skypack.dev/-/react-router-dom@v6.10.0-IOPS8eXSpgKOC4x9zZcT/dist=es2019,mode=imports/optimized/react-router-dom.js": "ae16110618b8855ada182015471a7c8d042c106fa86bed7665fa003a9e67ea73",
+    "https://cdn.skypack.dev/-/react-router@v6.10.0-j7F1Jt70War22YDMraOH/dist=es2019,mode=imports/optimized/react-router.js": "3c3d4e9d6b80441f6e14037e23af9d6fc2c93c6270033bc0de1d08418ca4db4c",
+    "https://cdn.skypack.dev/-/react@v17.0.1-yH0aYV1FOvoIPeKBbHxg/dist=es2019,mode=imports/optimized/react.js": "d67a56e0f98f9bd5b9b5ed0408ea913b2d3e14265979e457d905a795ac5f4b4b",
+    "https://cdn.skypack.dev/react-router-dom": "6ef8debb42ef422f8db0aae707482607e4b3501aadac723971d2e356d2b7376b",
     "https://deno.land/std@0.183.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
     "https://deno.land/std@0.183.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
     "https://deno.land/std@0.183.0/async/deferred.ts": "42790112f36a75a57db4a96d33974a936deb7b04d25c6084a9fa8a49f135def8",
@@ -116,6 +122,16 @@
     "https://deno.land/x/oak@v12.3.0/testing.ts": "a0be5c84981afde666de29630f34b09d944ca1a2fe6a5185644b60ad95e16d18",
     "https://deno.land/x/oak@v12.3.0/types.d.ts": "1d15e19052254c4d0ff84bb74d84def42588b2fbc59f5f6dc2c3fe5bdbb6b31b",
     "https://deno.land/x/oak@v12.3.0/util.ts": "3af8c4ed04c6cc2bedbe66e562a77fc59c72df31c55a902a63885861ca1639d6",
-    "https://deno.land/x/path_to_regexp@v6.2.1/index.ts": "894060567837bae8fc9c5cbd4d0a05e9024672083d5883b525c031eea940e556"
+    "https://deno.land/x/path_to_regexp@v6.2.1/index.ts": "894060567837bae8fc9c5cbd4d0a05e9024672083d5883b525c031eea940e556",
+    "https://jspm.dev/npm:react-dom@18.2.0!cjs": "ade0e9a31699971c8aaaf2335bd4426513c03bf78a408cf24b6c979c1530d379",
+    "https://jspm.dev/npm:react-dom@18.2.0/_/e8f2977c.js": "0cc16c477a294607bfa24ad36196c62aff6fed84d44061e6ba1bb59ac9c56086",
+    "https://jspm.dev/npm:react-dom@18.2.0/server!cjs": "00bab163e8c5b9842facacefdd5b29a722c2b18de358446bf2f9a7718232bbc9",
+    "https://jspm.dev/npm:react@18!cjs": "c0bef1d08ada949221be8b2caf181e3a23c3b914d32648d22273f99bca56d277",
+    "https://jspm.dev/npm:react@18.2.0!cjs": "0d01bb5201570741511e6be3d962e2bbf45e27b1ebf93f1ed22d05a33e52232c",
+    "https://jspm.dev/npm:scheduler@0.23!cjs": "a1b4e3f4dd5ce2940f163c30d4f52fa944c96dbd839f538516a47e6e3ba26ae9",
+    "https://jspm.dev/npm:scheduler@0.23.0!cjs": "0780176de48ce932f608903b921d288b65f14049ce9e5cc7a1310915e6d2aaa8",
+    "https://jspm.dev/react": "c0bef1d08ada949221be8b2caf181e3a23c3b914d32648d22273f99bca56d277",
+    "https://jspm.dev/react-dom": "7c0672019ddbcbe1f01dd359823dce2fb4f762faeb8240877a974605338bb02d",
+    "https://jspm.dev/react-dom/server": "28574945db7509e247664d122c16fa084d67088c7afd20607b8027ff6f750cfd"
   }
 }

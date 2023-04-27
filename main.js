@@ -1,9 +1,12 @@
-import { Application, Router } from "https://deno.land/x/oak@v12.3.0/mod.ts";
+import { Application, Router } from "./deps.js";
+import { ReactDOMServer } from "./deps.js";
+import App from "./components/App.jsx";
 
 const app = new Application();
 const port = 8000;
 
 const router = new Router();
+
 router.get("/", (context) => {
   context.response.body = `
     <!DOCTYPE html>
@@ -15,7 +18,7 @@ router.get("/", (context) => {
 			</head>
 			<body>
 			   <div id="root">
-	          <h1>Deno and React with Sebastian</h1>
+			   ${ReactDOMServer.renderToString(App())}
 				 </div>
 			</body>
 		</html>`;
